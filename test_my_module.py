@@ -1,4 +1,4 @@
-from my_module import Chooser, gen_plot, print_rect
+from my_module import Chooser, gen_plot, print_rect, double_num
 
 def test_chooser():
     assert Chooser([1,]).select() == 1
@@ -8,3 +8,6 @@ def test_gen_plot():
 
 def test_print_rect():
     assert print_rect(5) #returns true if function ran successfully
+
+def test_double_num():
+    assert double_num(2) == 4

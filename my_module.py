@@ -38,6 +38,9 @@ def print_rect(width=3, height=-1):
 
     return True
 
+def double_num(x):
+    return x*2
+
 def main():
     c = Chooser()
     print(c.select())
